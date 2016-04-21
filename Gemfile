@@ -28,6 +28,7 @@ gem 'enumerize'
 gem "font-awesome-rails"
 gem 'carrierwave'
 gem 'faraday'
+gem 'devise'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
