@@ -1,0 +1,8 @@
+<% @pokemons.each do |pokemon| %>
+  <div class="well">
+    <p>
+      <%= "#{pokemon.number}: #{pokemon.name}" %>
+    </p>
+    <%= image_tag(pokemon.avatar.url, width: 96, class: "img-square") %>
+  </div>
+<% end %>
